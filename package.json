@@ -1,6 +1,6 @@
 {
   "name": "pdf-to-dataURL",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A tiny wrapper around pdf.js to convert PDFs to dataURLs",
   "main": "build/index.js",
   "dependencies": {

@@ -6,6 +6,8 @@ module.exports = {
     library: 'pdfToDataURL',
     libraryTarget: 'umd'
   },
+  // don't bundle non-relative packages
+  externals: /^[^.]/,
   module: {
     loaders: [{
       test: /\.es6$/, loader: 'babel-loader',
