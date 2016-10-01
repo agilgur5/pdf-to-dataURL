@@ -18,10 +18,10 @@ callback that will be called after each page of the PDF is converted with a
 page object.
 
 The page object has four properties:
-`width`: `number` the width of the page's dataURL
-`height`: `number` the height of the page's dataURL
-`src`: `dataURL` the dataURL of the page
-`index`: `number` the index of the page -- as pdf.js is async, the callback may
+- `width`: `number` the width of the page's dataURL
+- `height`: `number` the height of the page's dataURL
+- `src`: `dataURL` the dataURL of the page
+- `index`: `number` the index of the page -- as pdf.js is async, the callback may
   be called not in the correct page order. Use this property if the order of
   the pages matters to you to properly place into an array.
   Useful with rendering libraries like React, where you can easily control the
